@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Zeam-Celestine/Projects/TestingControlPractice/TestingControlPractice/TestingControlPractice.csproj": {}
+  },
+  "projects": {
+    "/Users/Zeam-Celestine/Projects/TestingControlPractice/TestingControlPractice/TestingControlPractice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Zeam-Celestine/Projects/TestingControlPractice/TestingControlPractice/TestingControlPractice.csproj",
+        "projectName": "TestingControlPractice",
+        "projectPath": "/Users/Zeam-Celestine/Projects/TestingControlPractice/TestingControlPractice/TestingControlPractice.csproj",
+        "packagesPath": "/Users/Zeam-Celestine/.nuget/packages/",
+        "outputPath": "/Users/Zeam-Celestine/Projects/TestingControlPractice/TestingControlPractice/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Zeam-Celestine/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[81.0.4044.13800, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/Zeam-Celestine/Downloads/dotnet-sdk-3.1.201-osx-x64/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/Zeam-Celestine/.dotnet/store/|arch|/|tfm|",
+      "/Users/Zeam-Celestine/.nuget/packages"
+    ]
+  }
+}
