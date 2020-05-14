@@ -60,16 +60,20 @@ namespace TestingControlPractice
             driver.Url = "http://uitestpractice.com";
 
             // maximize the window
-            driver.Manage().Window.Maximize();
+            driver.Manage().Window.FullScreen();
             Thread.Sleep(2000);
+
+            //switch to iframe
+            driver.SwitchTo().Frame("iframe_a");
 
             //give input to the textfield
             ((IJavaScriptExecutor)driver).ExecuteScript("window.scrollBy(0,500);");
-            //driver.FindElement(By.Id("name")).SendKeys("Feranda");
-            driver.FindElement(By.XPath("//*[@id='name']")).SendKeys("Feranda");
+            driver.FindElement(By.Id("name")).SendKeys("Feranda");
+            //driver.FindElement(By.XPath("//*[@id='name']")).SendKeys("Feranda");
             Thread.Sleep(3000);
 
             // click on the link
+            driver.SwitchTo().ParentFrame();
             driver.FindElement(By.PartialLinkText("uitestpractice.com")).Click();
             Thread.Sleep(3000);
             driver.Quit();

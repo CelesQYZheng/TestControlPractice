@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.TestingControlPractice PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TestingControlPractice/UnitTest1.cs">
     <Files>
-      <File FileName="TestingControlPractice/UnitTest1.cs" Line="102" Column="52" />
+      <File FileName="TestingControlPractice/UnitTest1.cs" Line="288" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,6 +15,11 @@
               <Node name="UnitTest1.cs" selected="True" />
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="TestingControlPractice" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
